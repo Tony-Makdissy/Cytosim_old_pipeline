@@ -1,0 +1,51 @@
+% Cytosim property file, pid 4465
+% Tue May  9 10:33:59 2023
+
+set simul system
+{
+ time_step            = 0.001;
+ viscosity            = 0.1;
+ random_seed          = 1683931985;
+ steric               = 1, 100, 100;
+}
+
+set space cell
+{
+ property_number      = 1;
+ shape                = sphere;
+}
+
+set hand kinesin
+{
+ property_number      = 1;
+ binding              = 10, 0.02;
+ unbinding            = 2, 3;
+ display              = (color=blue; size=10;);
+}
+
+set single grafted
+{
+ property_number      = 1;
+ hand                 = kinesin;
+ stiffness            = 100;
+ confine              = 1, 0, cell;
+}
+
+set bead particle
+{
+ property_number      = 1;
+ viscosity            = 0.1;
+ steric               = 1, 0;
+ confine              = 1, 1000, cell;
+ display              = (coloring=1; style=7; back_color=dark_gray);
+}
+
+set solid balls
+{
+ property_number      = 1;
+ viscosity            = 0.1;
+ steric               = 1, 0;
+ confine              = 1, 1000, cell;
+ display              = (coloring=1; style=7;);
+}
+

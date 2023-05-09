@@ -1,0 +1,10 @@
+host      unknown
+user      tony
+wdir      /home/tony/PycharmProjects/old_pipe_line/run0006
+exec      /home/tony/PycharmProjects/old_pipe_line/sim
+args      []
+conf      /home/tony/PycharmProjects/old_pipe_line/dummy_code0006.cym
+pid       4447
+start     Tue May  9 10:33:54 2023
+status    0
+stop      Tue May  9 10:34:00 2023

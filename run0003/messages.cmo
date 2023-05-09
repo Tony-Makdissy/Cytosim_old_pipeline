@@ -1,0 +1,16 @@
+CYTOSIM PI version unknown
+ BindingGrid has 39304 cells of size 0.125 um
+adjusting simul:steric_max_range = 1.000
+% Tue May  9 10:33:50 2023
+F1          0.50s   CPU      0.770s           1s
+F2          1.00s   CPU      0.762s           2s
+F3          1.50s   CPU      0.715s           2s
+F4          2.00s   CPU      0.474s           3s
+F5          2.50s   CPU      0.668s           3s
+F6          3.00s   CPU      0.751s           4s
+F7          3.50s   CPU      0.598s           5s
+F8          4.00s   CPU      0.545s           5s
+F9          4.50s   CPU      0.592s           6s
+F10         5.00s   CPU      0.753s           7s
+% Tue May  9 10:33:56 2023
+end  7 s ( 0 h )
